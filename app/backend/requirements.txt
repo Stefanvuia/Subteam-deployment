@@ -1,0 +1,4 @@
+cohere
+sympy
+python-dotenv
+tqdm
