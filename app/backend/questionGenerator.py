@@ -1,4 +1,4 @@
-from backend.models import Cohere
+from models import Cohere
 import asyncio
 
 
