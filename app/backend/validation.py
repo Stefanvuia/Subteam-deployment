@@ -6,7 +6,7 @@ import sympy
 from sympy.parsing.latex import parse_latex
 from sympy.parsing.sympy_parser import parse_expr
 import asyncio
-from backend.models import Cohere
+from models import Cohere
 from enum import Enum
 from sympy import Eq, simplify, symbols, cancel
 
