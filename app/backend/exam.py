@@ -1,12 +1,10 @@
 from typing import List, Dict, Union
 
-
 class Exam:
     def __init__(self):
         self.questions: List[str] = []
         self.answers: Dict[str, str] = {}  # Stores only the highest-confidence answer per question
-        self.answer_confidence: Dict[
-            str, Dict[str, Union[int, float]]] = {}  # Stores all answers with their confidence scores
+        self.answer_confidence: Dict[str, Dict[str, Union[int, float]]] = {}  # Stores all answers with their confidence scores
 
     def add_question(self, question: str):
         """Adds a question to the exam."""
